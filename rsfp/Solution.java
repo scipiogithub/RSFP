@@ -304,7 +304,7 @@ public class Solution {
         int beta = 0;
         for (int i = 0; i < solution.size(); i++) {
             int _T_ = solution.get(i).V.size();
-            total += ((double) _T_ / V) * ((double) _T_ / V);
+            total += _T_ * _T_;
             if (_T_ == 1) {
                 beta += 2;
             } else if (_T_ > 1) {
