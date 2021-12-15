@@ -111,7 +111,7 @@ public class RSFP {
     }
 
     public static ArrayList<double[]> readfile(String filename) {
-        filename = "/Users/scipio/PycharmProjects/RSFP/" + filename;
+        filename = ".../RSFP/" + filename;
         BufferedReader file;
         ArrayList<double[]> instances = new ArrayList<>();
         try {
@@ -136,7 +136,7 @@ public class RSFP {
     }
 
     public static ArrayList readfile(int v, int e, int L, int s) {
-        String filename = "/Users/scipio/PycharmProjects/RSFP/instances/" + v
+        String filename = ".../RSFP/instances/" + v
                 + "_" + e + "_" + L + "_" + s + ".csv";
         BufferedReader file;
         Integer edges[][] = new Integer[v][v];
